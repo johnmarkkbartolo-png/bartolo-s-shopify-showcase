@@ -1,5 +1,4 @@
 import { SectionHeader } from "./Services";
-import { ArrowUpRight } from "lucide-react";
 
 const works = [
   {
@@ -38,7 +37,6 @@ export function Works() {
             <article key={w.title} className="group relative overflow-hidden rounded-2xl border border-border bg-card p-8 transition-all hover:-translate-y-1 hover:shadow-[var(--shadow-elevated)]">
               <div className="flex items-center justify-between">
                 <span className="rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent">{w.tag}</span>
-                <ArrowUpRight className="h-5 w-5 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent" />
               </div>
               <h3 className="mt-6 font-serif text-2xl tracking-tight text-foreground">{w.title}</h3>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{w.desc}</p>

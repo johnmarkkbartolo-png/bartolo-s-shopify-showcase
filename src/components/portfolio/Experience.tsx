@@ -34,7 +34,7 @@ const jobs = [
   {
     role: "General Virtual Assistant",
     type: "Part-time",
-    period: "Feb 2022 — Sep 2024",
+    period: "Feb 2022 — Sep 2022",
     bullets: [
       "Managed administrative tasks and client communications.",
       "Ensured accurate data entry, documentation, and task tracking.",
