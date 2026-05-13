@@ -76,10 +76,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Detail-oriented Shopify Virtual Assistant specializing in product listings, order fulfillment, inventory management, and customer support for e-commerce stores." },
       { name: "author", content: "John Mark Bartolo" },
       { property: "og:title", content: "John Mark Bartolo — Shopify Virtual Assistant" },
-      { property: "og:description", content: "Helping Shopify store owners scale through accurate listings, smooth order fulfillment, and reliable customer support." },
+      { property: "og:description", content: "Detail-oriented Shopify Virtual Assistant specializing in product listings, order fulfillment, inventory management, and customer support for e-commerce stores." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:title", content: "John Mark Bartolo — Shopify Virtual Assistant" },
+      { name: "twitter:description", content: "Detail-oriented Shopify Virtual Assistant specializing in product listings, order fulfillment, inventory management, and customer support for e-commerce stores." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bee9dcf8-5445-48ee-a7f6-9c23ea5ba201/id-preview-63df0cfc--28d7ea74-c6d5-4d12-804a-feeba318dd76.lovable.app-1778710721517.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bee9dcf8-5445-48ee-a7f6-9c23ea5ba201/id-preview-63df0cfc--28d7ea74-c6d5-4d12-804a-feeba318dd76.lovable.app-1778710721517.png" },
     ],
     links: [
       {
