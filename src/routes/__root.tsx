@@ -72,14 +72,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "John Mark Bartolo — Shopify Virtual Assistant" },
+      { name: "description", content: "Detail-oriented Shopify Virtual Assistant specializing in product listings, order fulfillment, inventory management, and customer support for e-commerce stores." },
+      { name: "author", content: "John Mark Bartolo" },
+      { property: "og:title", content: "John Mark Bartolo — Shopify Virtual Assistant" },
+      { property: "og:description", content: "Helping Shopify store owners scale through accurate listings, smooth order fulfillment, and reliable customer support." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "John Mark Bartolo — Shopify Virtual Assistant" },
     ],
     links: [
       {
