@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Logo } from "@/components/portfolio/Logo";
+import { ThemeToggle } from "@/components/portfolio/ThemeToggle";
 import { Hero } from "@/components/portfolio/Hero";
 import { Services } from "@/components/portfolio/Services";
 import { Experience } from "@/components/portfolio/Experience";
@@ -24,21 +25,24 @@ function Index() {
             <a href="#testimonials" className="transition-colors hover:text-foreground">Testimonials</a>
             <a href="#contact" className="transition-colors hover:text-foreground">Contact</a>
           </nav>
-          <a
-            href="#contact"
-            className="hidden rounded-full bg-primary px-5 py-2 text-sm font-medium text-primary-foreground shadow-[var(--shadow-soft)] transition-transform hover:-translate-y-0.5 md:inline-flex"
-          >
-            Hire me
-          </a>
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
+            <a
+              href="#contact"
+              className="hidden rounded-full bg-primary px-5 py-2 text-sm font-medium text-primary-foreground shadow-[var(--shadow-soft)] hover:-translate-y-0.5 md:inline-flex"
+            >
+              Hire me
+            </a>
+          </div>
         </div>
       </header>
       <main>
         <Hero />
-        <Services />
-        <Experience />
-        <Works />
-        <Testimonials />
-        <Contact />
+        <div className="reveal"><Services /></div>
+        <div className="reveal"><Experience /></div>
+        <div className="reveal"><Works /></div>
+        <div className="reveal"><Testimonials /></div>
+        <div className="reveal"><Contact /></div>
       </main>
       <footer className="border-t border-border/60 py-8">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 text-sm text-muted-foreground md:flex-row">
