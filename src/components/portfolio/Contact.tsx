@@ -16,7 +16,9 @@ export function Contact() {
                 Tell me a little about your Shopify store and what you need a hand with. I'll get back within one business day.
               </p>
               <a
-                href="mailto:johnmarkkbartolo@gmail.com?subject=Shopify%20VA%20Inquiry&body=Hi%20John%20Mark%2C%0A%0AI%27d%20like%20to%20discuss%20a%20project%20with%20you."
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=johnmarkkbartolo@gmail.com&su=Shopify%20VA%20Inquiry&body=Hi%20John%20Mark%2C%0A%0AI%27d%20like%20to%20discuss%20a%20project%20with%20you."
+                target="_blank"
+                rel="noreferrer"
                 className="group mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground shadow-[var(--shadow-soft)] transition-transform hover:-translate-y-0.5"
               >
                 Send me an email
